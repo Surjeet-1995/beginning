@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main()
+{
+	int num, yourguess , counts;
+	srand();
+	num = rand() % 100 + 1;
+
+	printf (" lets start the game, the random number is between 1 to 100 \n\n\n");
+
+	do
+	{
+		printf("enter some values in between 1 to 100\n\n\n");
+		scanf("%d", &yourguess);
+		counts++;
+
+
+		if (yourguess < num)
+		{
+			printf("the entered input is less that random number\n\n\n");
+		}
+
+
+		else if ( yourguess > num)
+		{
+			printf("the entered input is greater than the random number\n\n\n\n");
+		}
+
+	}
+		while (yourguess != num );
+
+
+return 0;
+}
