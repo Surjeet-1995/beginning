@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+{
+	int a;
+
+	printf("please enter some enter value upto 3\n");
+
+	scanf("%d", &a);
+
+
+	// its not neccessary to enter {"curls" in if /else statement , it works without it
+	if(a==1)
+
+		printf("RED\n");
+
+
+	else if (a==2)
+
+		printf("green");
+
+	else if (a==30)
+
+		printf("blue\n");
+
+
+	else
+
+		printf(" invalid input");
+
+
+	return (0);
+}
