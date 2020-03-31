@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+
+{
+int a;
+
+printf(" engter any one from these three values like A,B,C");
+scanf("%c",&a);
+
+switch (a) //
+{
+case 'A';
+printf("you enter a");
+break;
+
+case 'B';
+printf("you entered B");
+break;
+
+case 'C';
+printf("you entered c");
+brake;
+
+default;
+printf(" this is not any option");
+}
+return 0;
+
+}
